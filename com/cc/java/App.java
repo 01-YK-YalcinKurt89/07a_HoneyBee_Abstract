@@ -7,10 +7,12 @@ public class App {
         Queen queen = new Queen();
         Worker worker = new Worker();
         Drone drone = new Drone();
+        Bird bird = new Bird();
 
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+        pollObj(bird);
 
         output("---------------------");
 
