@@ -14,10 +14,9 @@ public class App {
 
         output("---------------------");
 
-        // -- Das sollte eigentlich nicht gehen! --//
-        HoneyBee bee = new HoneyBee();
-        pollObj(bee);
-
+        // // -- Das geht nicht mehr --//
+        // HoneyBee bee = new HoneyBee();
+        // pollObj(bee);
 
     }
 
